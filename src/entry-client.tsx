@@ -10,9 +10,7 @@ const routes = getLazyRoutes();
 
 ReactDOM.hydrateRoot(
   document.getElementById('app')!,
-  <React.StrictMode>
-    <BrowserRouter>
-      <App routes={routes} />
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App routes={routes} />
+  </BrowserRouter>,
 );

@@ -1,0 +1,32 @@
+@keyframes fade-in-anim {
+  from {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fade-in-anim 10s;
+}
+
+@keyframes shrink-anim {
+  from {
+    transform: scaleX(100%);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+.shrink {
+  animation: shrink-anim 10s forwards;
+  @apply origin-left;
+}

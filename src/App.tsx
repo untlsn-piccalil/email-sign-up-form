@@ -1,6 +1,7 @@
 import { Routes } from 'react-router-dom';
 import 'uno.css';
 import '~/assets/style/reset.css';
+import '~/assets/style/root.css';
 import Helmet from 'react-helmet';
 import type { Route } from '~/routes';
 import favicon from '~/assets/images/favicon.svg';
