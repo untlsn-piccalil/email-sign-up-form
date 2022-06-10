@@ -1,0 +1,7 @@
+:root {
+  --un-shadow-color: #000;
+}
+
+.full-shadow {
+  box-shadow: 0 0 6px 1px var(--un-shadow-color);
+}
